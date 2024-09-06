@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+      #movableDiv {
+        width: 100px;
+        height: 100px;
+        background-color: lightblue;
+        position: absolute;
+        top: 50px;
+        left: 50px;
+      }
+    </style>
+    <div id="movableDiv"></div>
+    <button onclick="right()">right</button>
+    <button onclick="left()">left</button>
+    <button onclick="down()">down</button>
+    <button onclick="top()">top</button>
+    <script src="script_div.js"></script>
+  </body>
+</html>
